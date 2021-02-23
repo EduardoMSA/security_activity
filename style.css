@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 232, 238);
+}
+
+.texts{
+    font-family: sans-serif;
+    margin-top: 125px;
+    margin-left: 255px;
+    position: fixed;
+}
+
+.texts h1{
+    font-size: 65px;
+    color: #1877f2;
+    font-weight: 800;
+}
+.texts h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form-body{
+    height: 395px;
+    width: 355px;
+    background-color: white;
+    margin-top: 125px;
+    margin-left: 855px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1),
+                0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+input{
+    outline: none;
+    border-radius: 0.5px solid rgb(238, 236, 236);
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 12px;
+    height: 52px;
+    width: 300px;
+    padding: 10px;
+}
+.login{
+    height: 52px;
+    width: 300px;
+    border-radius: 1px solid black;
+    position: fixed;
+    background-color: #1877f2;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.login a{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    position: fixed;
+    margin-left: -25px;
+    text-decoration: none;
+
+}
+.forpass{
+    margin-top: 95px;
+}
+.forpass a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.border{
+    width: 340px;
+    border: 0.01px solid black;
+    height: 0.5px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.create{
+    margin-top: 20px;
+    height: 40px;
+    width: 185px;
+    background-color: #00a400;
+    margin-left: 75px;
+    border-radius: 8px;
+}
+.create a{
+    color: white;
+    margin-top: 10px;
+    position: fixed;
+    margin-left: -85px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.forpage a{
+    text-decoration: none;
+    margin-top: 40px;
+    color: black;
+    position: fixed;
+    margin-left: -155px;
+    font-weight: 600;
+}
+.forpage a:hover{
+    border-bottom: 1px solid black;
+}
+.forpage h3{
+    position: fixed;
+    margin-left: 115px;
+    margin-top: 38px;
+    font-weight: 400;
+}
